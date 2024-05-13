@@ -1,0 +1,29 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"bucketShape": {
+		"type": "fromPhysicsEditor",
+		"label": "bucket",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":1, "y":3 }, { "x":1, "y":234 }, { "x":9, "y":225 } ],
+					[ { "x":1, "y":234 }, { "x":91, "y":233 }, { "x":84, "y":225 }, { "x":9, "y":225 } ],
+					[ { "x":92, "y":4 }, { "x":84, "y":225 }, { "x":91, "y":233 } ]
+				]
+			}
+		]
+	}
+}
